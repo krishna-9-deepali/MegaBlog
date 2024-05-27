@@ -9,6 +9,31 @@
   
 }
 body{
-  margin-top: 12rem;
+  margin-top: 8rem;
  
+}
+.welcomeuser{
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  color:#46494f;
+  background-color:white ;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.menu{
+ 
+}
+.welcomMessage{
+  margin-top: 0rem ;
+}
+@media (max-width: 520px) {
+  .menu{
+    /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+  }
+  .welcomMessage{
+    margin-top: 5rem ;
+  }
 }

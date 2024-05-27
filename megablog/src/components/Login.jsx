@@ -23,7 +23,7 @@ function Login() {
         console.log("get user data", userData);
         if (userData) {
           dispatch(authLogin(userData));
-          navigate("/welcome");
+          navigate("/");
           console.log("welcome ");
         }
       }
